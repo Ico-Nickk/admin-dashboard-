@@ -67,3 +67,27 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+.container > div {
+    border: 2px red solid;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 20% 80%/ 20% 90%;
+}
+
+.header {
+    grid-column: 2 / 3;
+
+}
+
+.sideBar {
+    grid-row: 1 / 4;
+}
+
+.main {
+
+}
