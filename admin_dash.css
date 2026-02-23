@@ -88,6 +88,8 @@ h6 {
     grid-row: 1 / 4;
 }
 
+.sideBar li {}
+
 .main {
 
 }
