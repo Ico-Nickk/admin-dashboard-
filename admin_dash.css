@@ -63,6 +63,10 @@ h6 {
     text-wrap: balance;
 }
 
+ul {
+    list-style: none;
+}
+
 #root,
 #__next {
     isolation: isolate;
@@ -86,9 +90,17 @@ h6 {
 
 .sideBar {
     grid-row: 1 / 4;
+    padding: 10px;
 }
 
-.sideBar li {}
+.sideBar ul {
+    padding: 0;
+}
+
+.sideBar li {
+    display: inline-block;
+    
+}
 
 .main {
 
