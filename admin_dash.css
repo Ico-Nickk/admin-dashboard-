@@ -84,8 +84,7 @@ ul {
 }
 
 .header {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 14px 50px 14px 50px ;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     display: grid;
@@ -102,6 +101,18 @@ ul {
 
 .leftSearch {
     grid-column: 1 / 2;
+}
+
+.leftSearch button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.leftSearch input {
+    width: 90%;
+    border-radius: 30px;
 }
 
 .rightSearch {
