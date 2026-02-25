@@ -22,6 +22,7 @@
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    font-family: "Roboto";
 }
 
 img,
@@ -70,10 +71,6 @@ ul {
 #root,
 #__next {
     isolation: isolate;
-}
-
-.container > div {
-    border: 2px red solid;
 }
 
 .container {
@@ -156,6 +153,7 @@ ul {
     width: 120px;
     height: 40px;
     border-radius: 30px;
+    background-color: #1c94d3;
 
 }
 
@@ -165,6 +163,8 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    background-color: #1c94d3;
+    color: white;
 }
 
 .mainSidebar, .settings {
@@ -196,6 +196,7 @@ ul {
     grid-template-rows: 60% 40%;
     grid-template-columns: 3fr 1fr;
     gap: 15px;
+    background-color: #e2e8f0;
 }
 
 .projects {
@@ -223,7 +224,7 @@ ul {
 
 .cards {
     height: 162px;
-    background-color: blanchedalmond;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -258,7 +259,7 @@ ul {
     flex-direction: column;
     gap: 10px;
     border-radius: 7px;
-    background-color: blanchedalmond;
+    background-color: white;
     margin-top: 10px;
     font-size: 0.85rem;
 }
@@ -275,7 +276,6 @@ ul {
     height: 2px;
     width: 90%;
     margin-top: 4px;
-    margin-left: ;
     background-color: black;
 
 }
@@ -301,7 +301,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 13px;
-    background-color: blanchedalmond;
+    background-color: white;
     border-radius: 7px;
     height: 162px;
 }
