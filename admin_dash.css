@@ -162,15 +162,32 @@ ul {
 .sideBar {
     grid-row: 1 / 4;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-.sideBar ul {
-    padding: 0;
+.mainSidebar, .settings {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
 }
 
-.sideBar li {
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.8em;
+}
+
+.sideBar img {
     display: inline-block;
-    
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .main {
